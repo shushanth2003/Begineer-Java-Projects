@@ -1,15 +1,17 @@
 class Markanalysis extends Uploading {
-    public int totalmarks=0;
-    public int average=0;
+    int totalmarks = 0;
+    double average = 0; // Change average to double to retain decimal precision
+
     Markanalysis(String n, String s, int nS, int[] m, String[] S) {
         super(n, s, nS, m, S);
     }
-    void setMarketanalysis(){
+
+    void setMarketanalysis() {
         for (int i = 0; i < numSubject; i++) {
-            totalmarks+=marks[i];
+            totalmarks += marks[i];
         }
-        average=totalmarks/numSubject;
-        System.out.println("Total Marks of "+name+totalmarks);
-        System.out.println("Average Marks of "+ name+average);
+        average = (double) totalmarks / numSubject;
+        System.out.println("Total Marks of " + name + " : " + totalmarks);
+        System.out.println("Average Marks of " + name + " : " + average);
     }
 }

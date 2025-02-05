@@ -13,12 +13,13 @@ class Uploading {
         Subject=S;
     }
     Scanner in = new Scanner(System.in);
-    void setMarkanalysis(){
+    void setuploading(){
         for(int i=0;i<numSubject;i++){
-            System.out.print("Enter the "+numSubject+" Subjects");
+            System.out.println("Enter the Subject : ");
             Subject[i]=in.nextLine();
-            System.out.print("Enter the Marks of "+"each "+numSubject+" Subject : ");
+            System.out.println("Enter the Marks of Subject : ");
             marks[i]=in.nextInt();
+            in.nextLine();
         }
     }
 }
