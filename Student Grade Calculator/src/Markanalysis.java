@@ -8,7 +8,7 @@ class Markanalysis extends Uploading {
         for (int i = 0; i < numSubject; i++) {
             totalmarks+=marks[i];
         }
-        average=totalmarks/2;
+        average=totalmarks/numSubject;
         System.out.println("Total Marks of "+name+totalmarks);
         System.out.println("Average Marks of "+ name+average);
     }
