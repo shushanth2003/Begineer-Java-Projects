@@ -4,7 +4,7 @@ class CelsiusToFahrenheit {
         tempertature=t;
     }
     void setCelsiusToFahrenheit(){
-        double celsiustofahrenheit=(tempertature*9/5)+32;
+        double celsiustofahrenheit=(tempertature-32)*5/9;
         System.out.println("Celsius To Fahrenheit "+celsiustofahrenheit);
     }
 }
