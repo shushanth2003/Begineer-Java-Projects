@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Begineer-Java-Projects.iml" filepath="$PROJECT_DIR$/.idea/Begineer-Java-Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Student Grade Calculator/Student Grade Calculator.iml" filepath="$PROJECT_DIR$/Student Grade Calculator/Student Grade Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Temperature Converter/Temperature Converter.iml" filepath="$PROJECT_DIR$/Temperature Converter/Temperature Converter.iml" />
       <module fileurl="file://$PROJECT_DIR$/To-do-List/To-do-List.iml" filepath="$PROJECT_DIR$/To-do-List/To-do-List.iml" />
     </modules>
   </component>
