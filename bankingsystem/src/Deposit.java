@@ -1,14 +1,14 @@
 import java.util.Scanner;
 class Deposit {
     String option;
-    int amount;
+    int savingamount;
     Deposit(){
         this.option=option;
-        this.amount=amount;
+        this.savingamount = savingamount;
     }
     void getDeposit(){
         System.out.println("Enter the amount");
         Scanner in = new Scanner(System.in);
-        amount=in.nextInt();
+        savingamount =in.nextInt();
     }
 }
